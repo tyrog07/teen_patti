@@ -17,7 +17,7 @@ This is Laravel project serving as backend to Teen Patti game. It follows princi
 
 
 2) Add player to table (POST) <br>
-    Endpoint:/admin/storePlayerOnTable
+    > Endpoint:/admin/storePlayerOnTable
     
     ```
    {
@@ -45,7 +45,7 @@ This is Laravel project serving as backend to Teen Patti game. It follows princi
  
  
  3) Retrive table details
-    Endpoint:/admin/retriveTable
+    > Endpoint:/admin/retriveTable
     
    ```
    {
@@ -70,7 +70,7 @@ This is Laravel project serving as backend to Teen Patti game. It follows princi
  ```
  
  4) Retrive player details<br>
-    Endpoint:/admin/retrivePlayer
+    > Endpoint:/admin/retrivePlayer
     
     ```
     {
@@ -94,7 +94,7 @@ This is Laravel project serving as backend to Teen Patti game. It follows princi
     ```
     
  5) Is Playing Game<br>
-    Endpoint:/admin/isPlaying
+    > Endpoint:/admin/isPlaying
     
     ```
     {
@@ -119,7 +119,7 @@ This is Laravel project serving as backend to Teen Patti game. It follows princi
     ```
     
  6) Quit Game<br>
-    Endpoint:/admin/quitGame
+    > Endpoint:/admin/quitGame
     
     ```
      {
@@ -145,7 +145,7 @@ This is Laravel project serving as backend to Teen Patti game. It follows princi
     ```
 
  7) Winner<br>
-    Endpoint:/admin/pack
+    > Endpoint:/admin/pack
     
     ```
     var playerID = [1, 8, 9];
