@@ -2,13 +2,16 @@
 This is Laravel project serving as backend to Teen Patti game. It follows principle of REST API. It also considers BOTS in game. Logic is implemented regarding that.
 <h2> Usage </h2>
 
-1) Place bet (POST)
+1) Place bet (POST)<br>
     Endpoint:/admin/bid
+    ```
   {
     id: 4, //user id
     currentBet: 100,
     tableID: 4
   }
+  ```
+
 Response-> success
 
 2) Add player to table (POST)
