@@ -1,8 +1,9 @@
 <h2>Teen Patti Game</h2>
 This is Laravel project serving as backend to Teen Patti game. It follows principle of REST API. It also considers BOTS in game. Logic is implemented regarding that.
 <h2> Usage </h2>
-
-1) Place bet (POST)<br>
+ 
+ 
+1) Place bet (POST) <br>
    > Endpoint:/admin/bid
     
   ```
@@ -44,8 +45,8 @@ This is Laravel project serving as backend to Teen Patti game. It follows princi
    ```
  
  
- 3) Retrive table details
-    > Endpoint:/admin/retriveTable
+3) Retrive table details
+   > Endpoint:/admin/retriveTable
     
    ```
    {
@@ -67,10 +68,10 @@ This is Laravel project serving as backend to Teen Patti game. It follows princi
      "real_players": "3",
      "current_value": "1610"
    }
- ```
+   ```
  
- 4) Retrive player details<br>
-    > Endpoint:/admin/retrivePlayer
+4) Retrive player details<br>
+   > Endpoint:/admin/retrivePlayer
     
     ```
     {
@@ -93,8 +94,8 @@ This is Laravel project serving as backend to Teen Patti game. It follows princi
     }
     ```
     
- 5) Is Playing Game<br>
-    > Endpoint:/admin/isPlaying
+5) Is Playing Game<br>
+   > Endpoint:/admin/isPlaying
     
     ```
     {
@@ -118,8 +119,8 @@ This is Laravel project serving as backend to Teen Patti game. It follows princi
     }
     ```
     
- 6) Quit Game<br>
-    > Endpoint:/admin/quitGame
+6) Quit Game<br>
+   > Endpoint:/admin/quitGame
     
     ```
      {
@@ -144,8 +145,8 @@ This is Laravel project serving as backend to Teen Patti game. It follows princi
     }
     ```
 
- 7) Winner<br>
-    > Endpoint:/admin/pack
+7) Winner<br>
+   > Endpoint:/admin/pack
     
     ```
     var playerID = [1, 8, 9];
