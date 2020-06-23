@@ -3,7 +3,7 @@ This is Laravel project serving as backend to Teen Patti game. It follows princi
 <h2> Usage </h2>
 
 1) Place bet (POST)<br>
-   Endpoint:/admin/bid
+   > Endpoint:/admin/bid
     
   ```
   {
@@ -13,7 +13,8 @@ This is Laravel project serving as backend to Teen Patti game. It follows princi
   }
   ```
 
-> Response = success
+> Response : success
+
 
 2) Add player to table (POST) <br>
     Endpoint:/admin/storePlayerOnTable
@@ -26,7 +27,7 @@ This is Laravel project serving as backend to Teen Patti game. It follows princi
    }
    ```
 
-Response-> 
+> Response: 
 
 ```
    {
@@ -42,6 +43,7 @@ Response->
    }
    ```
  
+ 
  3) Retrive table details
     Endpoint:/admin/retriveTable
     
@@ -51,7 +53,7 @@ Response->
    }
    ```
    
-   Response-> 
+   > Response: 
    
    ```
    {
@@ -76,7 +78,7 @@ Response->
     }
     ```
     
-    > Response = 
+    > Response: 
     ```
     {
      "id": 2,
@@ -101,7 +103,7 @@ Response->
     }
     ```
     
-    > Response = 
+    > Response: 
     ```
     {
      "id": 8,
@@ -126,7 +128,8 @@ Response->
      }
     ```
     
-    > Response = 
+    > Response:
+    
     ```
     {
       "id": 13,
@@ -194,7 +197,8 @@ Response->
     };
     ```
     
-    > Response = 
+    > Response:
+    
     ```
     8 (id of winning player)
     ```
