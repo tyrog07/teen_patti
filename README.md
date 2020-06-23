@@ -2,7 +2,7 @@
 This is Laravel project serving as backend to Teen Patti game. It follows principle of REST API. It also considers BOTS in game. Logic is implemented regarding that.
 <h2> Usage </h2>
 1) Place bet (POST)<br>
-    Endpoint:/admin/bid
+   -Endpoint:/admin/bid
     
   ```
   {
