@@ -10,7 +10,7 @@ This is Laravel project serving as backend to Teen Patti game. It follows princi
     currentBet: 100,
     tableID: 4
   }
-  
+  ```
 
 Response-> success
 
