@@ -2,7 +2,7 @@
 This is Laravel project serving as backend to Teen Patti game. It follows principle of REST API. It also considers BOTS in game. Logic is implemented regarding that.
 <h2> Usage </h2>
 1) Place bet (POST)<br>
-   -Endpoint:/admin/bid
+   Endpoint:/admin/bid
     
   ```
   {
@@ -26,6 +26,8 @@ Response-> success
    ```
 
 Response-> 
+
+```
    {
      "id": 13,
      "players_id": "3,9,10,11,12",
@@ -37,13 +39,20 @@ Response->
      "real_players": 3,
      "current_value": "0"
    }
+   ```
  
  3) Retrive table details
     Endpoint:/admin/retriveTable
+    
+   ```
    {
      tableID: 1,
    }
+   ```
+   
    Response-> 
+   
+   ```
    {
      "id": 1,
      "players_id": "3,9,10,2,1",
@@ -55,4 +64,6 @@ Response->
      "real_players": "3",
      "current_value": "1610"
    }
+ ```
  
+ 4) 
